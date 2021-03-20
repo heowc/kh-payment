@@ -217,13 +217,12 @@ GET /v1/payment/{tid}
 ```
 
 ### 6. 그 외
-므
 - 테스트
   - 약 80 여개의 테스트 진행
   - CI 환경
-    - GitHub Action 활용
-    - [ci.yml](.github/workflows/ci.yml)
+    - GitHub Action 활용([ci.yml](.github/workflows/ci.yml))
     - https://github.com/heowc/kh-payment/actions
+    - 테스트 결과 리포트 다운로드 가능
   - 커버리지
     - ![커버리지](images/coverage.png)
 
