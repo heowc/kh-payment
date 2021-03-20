@@ -17,7 +17,7 @@
 - 결제 부모 테이블 : 결제 이력 테이블 = 1 : N
   - 직접적인 관계를 갖지 않도록 외래키 사용하지 않음
 - 카드사 string 테이블
-![테이블](images/dependency.png)
+![테이블](images/table.png)
 
 ```sql
 -- 결제 부모 테이블
@@ -217,9 +217,11 @@ GET /v1/payment/{tid}
 ```
 
 ### 6. 그 외
-
-- 테스트 환경
-  - GitHub Action 활용
+므
+- 테스트
+  - 약 80 여개의 테스트 진행
+  - CI 환경
+    - GitHub Action 활용
     - [ci.yml](.github/workflows/ci.yml)
     - https://github.com/heowc/kh-payment/actions
   - 커버리지
